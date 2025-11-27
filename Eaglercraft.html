@@ -27,8 +27,8 @@
                 const userAgent = navigator.userAgent || navigator.vendor || window.opera;
                 const isSmallScreen = window.innerWidth <= 768; // Adjust this breakpoint as needed
                 
-                // Basic mobile user-agent detection combined with small screen check
-                if (/android|iPad|iPhone|iPod/.test(userAgent) && !window.MSStream || isSmallScreen) {
+                // Basic mobile user-agent detection combined with big screen check
+                if (/chrome os|windows|mac|chromebook/.test(userAgent) && !window.MSStream || isfullScreen) {
                     return true;
                 }
                 return false;
