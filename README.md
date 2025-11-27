@@ -1,2 +1,2 @@
- #https://m.eaglercraft.2025.com
-this is my first time so i'll try my best
+ # https://m.eaglercraft.2025.com
+Server address: 73.163.109.241.com
